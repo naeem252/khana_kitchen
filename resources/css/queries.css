@@ -1,0 +1,155 @@
+/* 1024 to 1200 */
+@media only screen and (max-width: 1200px) {
+  html {
+    font-size: 18px;
+  }
+  .row {
+    width: 100%;
+    padding: 0 15px;
+  }
+  .header-content {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .steps-element > div:last-child {
+    padding-left: 2%;
+    margin-top: 30px;
+  }
+
+  blockquote {
+    width: 90%;
+  }
+  blockquote:first-child {
+    margin-left: 15px;
+  }
+  blockquote::before {
+    top: -15px;
+    left: -20px;
+    font-size: 340%;
+  }
+
+  .plane:first-child {
+    margin-left: 15px;
+  }
+}
+/* 768 to 1023 */
+@media only screen and (max-width: 1023px) {
+  html {
+    font-size: 16px;
+  }
+  section {
+    padding: 35px 0;
+  }
+  .logo-box img {
+    height: 80px;
+  }
+  .top-para {
+    width: 90%;
+    line-height: 140%;
+    font-size: 120%;
+    text-align: center;
+  }
+
+  .steps-element > div:first-child img {
+    width: 60%;
+  }
+  .city-nav li {
+    font-size: 90%;
+  }
+  .city-nav li ion-icon {
+    margin-right: 3px;
+  }
+
+  .plane-top .price {
+    font-size: 260%;
+  }
+
+  .plane-middle ul li {
+    font-size: 90%;
+  }
+  .plane-middle ul li ion-icon {
+    margin-right: 5px;
+  }
+}
+/* 481 to 767 */
+@media only screen and (max-width: 767px) {
+  html {
+    font-size: 12px;
+  }
+  .secondary-heading {
+    font-size: 180%;
+  }
+  .nav-box {
+    display: none;
+  }
+  .col {
+    width: 100%;
+  }
+
+  .feature p {
+    font-size: 140%;
+  }
+
+  .steps-element > div:first-child img {
+    width: 50%;
+  }
+  .steps-element > div:first-child {
+    text-align: center;
+    padding-right: 0%;
+  }
+
+  .steps-element > div:last-child ul li {
+    font-size: 140%;
+    margin-bottom: 30px;
+  }
+
+  .steps-element > div:last-child ul li div {
+    padding: 13px;
+    margin-right: 25px;
+    line-height: 180%;
+    vertical-align: middle;
+    border: 2px solid var(--main-color);
+  }
+  .steps-element > div:last-child a:first-of-type {
+    margin-left: 45px;
+  }
+  .city {
+    width: 90%;
+    box-shadow: 0 2px 2px #dddddd;
+  }
+  .city .secondary-heading {
+    padding-left: 15px;
+  }
+  .city ul {
+    padding-left: 15px;
+    padding-bottom: 15px;
+  }
+  .city-nav li {
+    font-size: 150%;
+  }
+
+  blockquote {
+    margin-bottom: 50px;
+    font-size: 140%;
+  }
+  .plane {
+    font-size: 140%;
+  }
+}
+/* 0 to 480 */
+@media only screen and (max-width: 480px) {
+  .header-content {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .header-content h1 {
+    font-size: 280%;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+  }
+  .steps-element > div:last-child a:first-of-type {
+    margin-left: 0px;
+  }
+}
